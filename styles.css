@@ -5,17 +5,35 @@
     padding: 0;
 }
 
-body {
+section {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.one {
     background-color: rgb(255, 144, 200);
+
+}
+
+.two {
+    background-color: orange;
+    color: rgb(200, 130, 0);
+}
+
+.three {
+    background-color: skyblue;
+    color: rgb(6, 136, 187);
+}
+
+.four {
+    background-color: greenyellow;
+    color: rgb(115, 184, 12);
 }
 
 h1 {
-    display: flex;
-    border: 1px solid tomato;
-    width: 100vw;
-    height: 100vh;
-    align-items: center;
-    justify-content: center;
     text-align: center;
     font-size: 10em;
     font-family: 'Big Shoulders Text';
