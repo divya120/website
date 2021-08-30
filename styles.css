@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Text&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(255, 144, 200);
+}
+
+h1 {
+    display: flex;
+    border: 1px solid tomato;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 10em;
+    font-family: 'Big Shoulders Text';
+    color: rgb(251, 62, 157);
+    position: absolute;
+    z-index: 2;
+}
